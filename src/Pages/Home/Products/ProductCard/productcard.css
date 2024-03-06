@@ -1,0 +1,48 @@
+.product{
+    min-width: 210px;
+    min-height: 280px;
+    max-width: 210px;
+    max-height: 280px;
+    margin: 0 1.5rem;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    
+    transition: all 0.5s;
+}
+.product-img{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://kotart.in/cdn/shop/products/Kotart-Luxury-Golden-Pattern-Abstract-Art-Painting-for-Living-Room-Bedroom-Farmhouse-Studio-Salon-Home-and-Office-Wall-Decor-Canvas-Painting-3.jpg?v=1697554138&width=1946");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    transition: all 0.5s ease;
+}
+.product-img:hover{
+    transform: scale(1.3);
+}
+
+.product-cat{
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.548);
+    opacity: 0;
+    font-weight: 600;
+}
+
+.product-cat:hover{
+    opacity: 1;
+}
+
+.products-link{
+    text-decoration: none;
+    color: white;
+}

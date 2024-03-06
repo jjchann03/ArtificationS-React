@@ -1,0 +1,104 @@
+.profile-addresses-body{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.address-list{
+    width: 100%;
+    background-color: rgb(98, 100, 112);
+    border-radius: 10px;
+    margin-top: 1rem;
+    color: white;
+}
+
+.empty-address{
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.empty-address h2{
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.empty-address p{
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+
+
+
+
+/* Address form */
+.address-form {
+    max-width: 600px;
+    min-width: 600px;
+    max-height: 100vh;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: blue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 101;
+    overflow: scroll;
+}
+.address-form::-webkit-scrollbar{
+    display: none;
+}
+
+.address-form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-group:last-child {
+    margin-right: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

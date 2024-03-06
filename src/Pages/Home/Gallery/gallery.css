@@ -1,0 +1,40 @@
+.gallery-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 6rem 0;
+    background-color: #1f2937;
+    color: white;
+}
+
+.gallery-carousel{
+    width: 80%;
+    height: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.carousel-pre,.carousel-next{
+    position: absolute;
+    background: none;
+    color: white;
+    border: none;
+}
+
+.carousel-pre:hover, .carousel-next:hover{
+    color: rgb(250, 250, 130);
+}
+
+.carousel-pre{
+    left: 0;
+}
+
+.carousel-next{
+    right: 0;
+}

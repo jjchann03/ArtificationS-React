@@ -1,0 +1,107 @@
+
+.login-container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://cdn1.vectorstock.com/i/1000x1000/72/20/set-of-hand-drawn-elements-cute-doodle-art-vector-39527220.jpg');
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.login-form {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    animation: fadeIn 0.5s ease-in-out;
+    margin-top: 7rem;
+}
+
+.login-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.form-group {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    transition: color 0.3s ease-in-out;
+}
+
+.form-group input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(250, 250, 130);
+    border-radius: 25px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: rgb(250, 250, 130);
+}
+
+.form-group input:hover {
+    border-color: rgb(250, 250, 130);
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    background-color: #ffd632;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    outline: none;
+}
+
+.form-group button:hover {
+    background-color: rgb(250, 250, 130);
+}
+.link {
+    text-align: center;
+    transition: color 0.3s ease-in-out;
+}
+
+.link a {
+    color: yellow;
+    font-weight: 400;
+}
+
+.link a:hover {
+    color: yellowgreen;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

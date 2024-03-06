@@ -1,0 +1,41 @@
+.products-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    position: relative;
+    padding: 2rem 0 5rem 0;
+}
+
+.product-slider{
+    width: 86%;
+    display: flex;
+    margin: 1rem auto;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.product-slider::-webkit-scrollbar{
+    display: none;
+}
+
+.product-prev,.product-next{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 54%;
+}
+
+.product-next:hover,.product-prev:hover{
+    color: rgb(250, 250, 130);
+}
+
+.product-prev{
+    left: 2%;
+}
+.product-next{
+    right: 2%;
+}

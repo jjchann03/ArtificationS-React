@@ -1,0 +1,15 @@
+/* .popular-shop-body{
+    width: 100%;
+    background-color: red;
+} */
+.shop-product-container{
+    width: 95%;
+    height: auto;
+    background-color: red;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    overflow-y: scroll;
+}

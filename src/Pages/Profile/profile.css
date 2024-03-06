@@ -1,0 +1,29 @@
+.profile-body{
+    margin-top: 5rem;
+    overflow: hidden;
+}
+
+.profile-sidebar-link{
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+.profile-sidebar-active-link{
+    background-color: rgb(67, 74, 96);
+}
+.profile-sidebar-display:hover{
+    color: #ffd632;
+    background-color: rgb(98, 99, 108);
+}
+.profile-sidebar-display{
+    width: 100%;
+    padding: 0.5rem 0 1rem 0.5rem;
+}
+
+
+.sidebar-end{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+

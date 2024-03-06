@@ -1,0 +1,125 @@
+.footer{
+    width: 100%;
+    height: auto;
+    padding: 7rem 0 5rem 0;
+    color: black;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin:auto;
+}
+.footer-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+.footer-intro p{
+    width: 60%;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.icon-container{
+    display: flex;
+    margin: 0.8rem 0;
+}
+.icon-container img{
+    margin-right: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.footer h3{
+    font-weight: 500;
+    margin: 0 0.3rem;
+}
+.footer-info p{
+    margin: 0.5rem 0;
+    cursor: pointer;
+    text-align: start;
+    width: 100%;
+}
+.footer-link{
+    text-decoration: none;
+    width: 100%;
+    color: black;
+}
+.footer-link:hover{
+    font-weight: 600;
+}
+
+@media screen and (max-width:1105px) {
+    .icon-container img{
+        height: 38px;
+        width: 38px;
+    }
+    
+    .footer h3{
+        font-size: 1.7rem;
+    }
+    .footer p{
+        font-size: 1rem;
+        margin: 0.3rem;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .footer-container{
+        width: 95%;
+        margin: 9rem auto;
+    }
+    .icon-container img{
+        height: 32px;
+        width: 32px;
+    }
+    
+    .footer h3{
+        font-size: 1.5rem;
+    }
+    /* .footer p{
+        font-size: 1rem;
+        margin: 0.3rem;
+    } */
+}
+
+@media screen and (max-width:780px) {
+    .footer-container{
+        width: 100%;
+        margin: 7rem auto;
+    }
+    .icon-container img{
+        height: 29px;
+        width: 29px;
+    }
+    .footer h3{
+        font-size: 1.1rem;
+    }
+    .footer p{
+        font-size: 0.8rem;
+        margin: 0.3rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .footer-container{
+        margin: 5rem auto;
+    }
+    .icon-container img{
+        height: 26px;
+        width: 26px;
+    }
+    .footer h3{
+        font-size: 0.9rem;
+    }
+    .footer p{
+        font-size: 0.6rem;
+        margin: 0.2rem;
+    }
+}
